@@ -128,15 +128,7 @@ address {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404BBF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 
-}
 
 .active {
     color: #404bbf;
@@ -361,6 +353,7 @@ address {
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     margin-top: 72px;
+    width: 264px;
 }
 
 .team-img {
@@ -972,10 +965,26 @@ address {
     .address {
         display: block;
     }
-}
 
-.open-menu-btn {
-    display: none;
+
+    .open-menu-btn {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 120px;
+    }
+
+    .header-container {}
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: #404BBF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
 }
 
 
@@ -1027,5 +1036,13 @@ address {
     .portfolio-item {
         width: calc((100% - 48px) / 3);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
     }
 }
