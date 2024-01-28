@@ -1016,6 +1016,7 @@ address {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 72px 24px;
+        justify-content: center;
 
     }
 
@@ -1033,9 +1034,17 @@ address {
     }
 
     .footer-form {
-        display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 24px;
+
+
     }
+
+    .subscribe-text {
+        display: inline-block;
+    }
+
 
 }
 
