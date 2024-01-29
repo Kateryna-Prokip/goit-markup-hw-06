@@ -196,6 +196,10 @@ address {
     width: 100%;
     height: 100vh;
     padding: 24px 24px 40px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 
 }
 
@@ -209,21 +213,49 @@ address {
 
 .mob-navigation-item {}
 
-.mob-nav-link {}
+.mob-nav-link {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1, 11;
+    letter-spacing: 0, 02em;
+    text-transform: capitalize;
+}
 
 .active {}
 
-.mob-address {}
+.mob-address {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
-.mob-address-link {}
+.mob-address-link {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
-.mob-soc-list {}
+.mob-soc-list {
+    display: flex;
+    gap: 40px;
+
+
+}
 
 .mob-soc-item {}
 
 .mob-soc-social-link {}
 
-.mob-soc-icon {}
+.mob-soc-icon {
+    fill: transparent;
+    stroke: #4d5ae5;
+
+}
 
 .mob-soc-link {}
 
