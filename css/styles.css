@@ -147,7 +147,6 @@ address {
 
 }
 
-
 .address {
     font-style: normal;
     margin-left: auto;
@@ -287,6 +286,18 @@ address {
 }
 
 .mob-soc-link {}
+
+.active::after {
+    display: none;
+}
+
+.color {
+    color: #404bbf;
+}
+
+.is-open {
+    display: none;
+}
 
 
 /*-------------Section-hero-------------------*/
