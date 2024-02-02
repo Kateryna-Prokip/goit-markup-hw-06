@@ -369,7 +369,7 @@ address {
 
 .features {
     background: #FFF;
-    padding: 96px 0 96px;
+    padding: 96px 0 24px;
 }
 
 
@@ -534,7 +534,7 @@ address {
 /* --------------------Our team---------------------------- */
 /* --------------------Our portfolio---------------------------- */
 .our-portfolio {
-    /* padding: 120px 0 120px 0; */
+    /* padding: 120px 0; */
     padding: 96px 0 96px 0;
 }
 
@@ -846,6 +846,7 @@ address {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    display: none;
 }
 
 .modal {
@@ -1220,11 +1221,18 @@ address {
         padding: 120px 0;
     }
 
+    .team {
+        margin-bottom: 0;
+    }
+
     .team-item {
         width: calc((100% - 72px) / 4);
         margin-top: 72px;
     }
 
+    .team-list {
+        margin-bottom: 0;
+    }
 
     .hero {
         padding: 188px 0;
@@ -1263,6 +1271,10 @@ address {
 
     .features-text {
         font-weight: 400;
+    }
+
+    .our-portfolio {
+        padding: 120px 0;
     }
 
     .portfolio-list {
